@@ -18,6 +18,8 @@
     <title>Portfolio</title>
   </head>
   <body>
+
+    <!-- Header -->
     <header class="header">
       <div class="header-container container">
         <nav class="header-nav">
@@ -26,15 +28,12 @@
           >
           <ul class="header-nav__list list">
             <li class="header-nav__item">
-              <a class="header-nav__link link" href="./index.html">Studio</a>
+              <a class="header-nav__link link" href="./index.html">Головна сторінка</a>
             </li>
             <li class="header-nav__item">
               <a class="header-nav__link link current" href="./portfolio.html"
-                >Portfolio</a
+                >Портфоліо</a
               >
-            </li>
-            <li class="header-nav__item">
-              <a class="header-nav__link link" href="">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -49,13 +48,14 @@
               >
             </li>
             <li class="header-contacts__item">
-              <a class="header-contacts__link link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
+              <a class="header-contacts__link link" href="tel:+380671111111"
+                >+38 (067) 111-11-11</a
               >
             </li>
           </ul>
         </address>
 
+        <!-- Mobile menu -->
         <button class="mobile-menu__open js-open-menu" type="button">
           <svg
             class="mobile-menu__open-icon"
@@ -145,8 +145,11 @@
         </div>
       </div>
     </header>
+<!-- Header -->
 
+<!-- Main -->
     <main>
+      <!-- Gallery -->
       <section class="gallery">
         <div class="container">
           <h1 class="visually-hidden">Hidden</h1>
@@ -158,7 +161,7 @@
                 type="button"
                 data-value="all"
               >
-                All
+                Всі проекти
               </button>
             </li>
             <li class="gallery-filter__item">
@@ -167,7 +170,7 @@
                 type="button"
                 data-value="web"
               >
-                Web Site
+               Веб сайти
               </button>
             </li>
             <li class="gallery-filter__item">
@@ -176,7 +179,7 @@
                 type="button"
                 data-value="applications"
               >
-                App
+                Додатки
               </button>
             </li>
             <li class="gallery-filter__item">
@@ -185,7 +188,7 @@
                 type="button"
                 data-value="design"
               >
-                Design
+                Дизайн
               </button>
             </li>
             <li class="gallery-filter__item">
@@ -194,7 +197,7 @@
                 type="button"
                 data-value="marketing"
               >
-                Marketing
+                Маркетинг
               </button>
             </li>
           </ul>
@@ -601,6 +604,7 @@
       </section>
     </main>
 
+<!-- Footer section -->
     <footer class="footer">
       <div class="footer-container container">
         <div class="footer__logo-wrapper">
@@ -614,10 +618,12 @@
         </div>
 
         <div class="footer__icon-wrapper">
-          <p class="footer__icon-text">Social media</p>
+          <p class="footer__icon-text">Наші соціальні мережі
+
+          </p>
           <ul class="footer__icon-list">
             <li class="footer__icon-item">
-              <a href="" class="footer__icon-link">
+              <a href="https://www.instagram.com" class="footer__icon-link" target="_blank" rel="noopener noreferrer">
                 <svg
                   class="footer__icon"
                   aria-label="icon-instagram"
@@ -629,7 +635,7 @@
               </a>
             </li>
             <li class="footer__icon-item">
-              <a href="" class="footer__icon-link">
+            <a href="https://x.com/?lang=ru" class="footer__icon-link" target="_blank" rel="noopener noreferrer">
                 <svg
                   class="footer__icon"
                   aria-label="icon-twitter"
@@ -641,7 +647,7 @@
               </a>
             </li>
             <li class="footer__icon-item">
-              <a href="" class="footer__icon-link">
+              <a href="https://uk-ua.facebook.com/" class="footer__icon-link" target="_blank" rel="noopener noreferrer">
                 <svg
                   class="footer__icon"
                   aria-label="icon-facebook"
@@ -653,7 +659,7 @@
               </a>
             </li>
             <li class="footer__icon-item">
-              <a href="" class="footer__icon-link">
+              <a href="https://www.linkedin.com" class="footer__icon-link" target="_blank" rel="noopener noreferrer">
                 <svg
                   class="footer__icon"
                   aria-label="icon-linkedin"
@@ -668,7 +674,7 @@
         </div>
 
         <div class="footer__subscribe-wrapper">
-          <p class="footer__subscribe-text">Subscribe</p>
+          <p class="footer__subscribe-text">Підпишись</p>
           <form class="footer__subscribe-form">
             <label class="footer__subscribe-label">
               <input
@@ -683,7 +689,7 @@
               name="email-subscribe-button"
               class="footer__subscribe-button"
             >
-              Subscribe
+              Відправити
               <svg
                 class="footer__subscribe-icon"
                 aria-label="icon-send"
